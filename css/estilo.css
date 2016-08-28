@@ -1,0 +1,259 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web);
+@import url(https://fonts.googleapis.com/css?family=Work+Sans);
+@font-face {
+	font-family: 'FonteLogo';
+	src: url("../_font/bubblegum-sans-regular.otf");
+}
+
+     body{
+	        font-family: 'Work Sans', sans-serif;
+		    background-image: url(../_imagens/background.jpg);
+		    color: rgba(0,0,0,9);
+}
+
+    div#interface{
+	width: 900px;
+	background-color:#ede3e3;
+	margin: -20px auto 0px auto;
+	box-shadow: 9px 9px 9px rgba(0,0,0,.5);
+	padding: 10px;
+
+
+}
+
+    p{
+    text-align: justify;
+	text-indent: 50px;
+}
+
+    a{
+	color: #606060;
+	text-decoration: none;
+
+}
+
+    a:hover {
+	text-decoration: underline;
+
+}
+
+div#interface {
+    width: 900px;
+    background-color: #ebe6e6;
+    background-image:url(../_imagens/background2.gif);
+    margin: -23px auto 0px auto;
+    box-shadow: 9px 9px 9px  rgba(0, 0, 0, .5);
+    padding: 20px;
+    border-radius: 30px 30px 30px 30px;
+}
+
+header#cabecalho img#icone {
+    position: absolute;
+    right: 800px;
+    top: 12px;
+    display: block;
+}
+
+header#cabecalho {
+    border-bottom: 1px #606060 solid;
+    height: 150px;
+}
+
+header#cabecalho h1 {
+    font-family: 'FonteLogo', sans-serif;
+    font-size: 50pt;
+    color: #ebe6e6;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+header#cabecalho h2 {
+    font-family: 'FonteLogo', sans-serif;
+    color: #ebe6e6;
+    font-size: 15pt;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+/*  Formatação de imagens com legendas */
+
+    figure.foto-legenda {
+	position: relative;
+	border: 5px solid #dddddd;
+	box-shadow: 1px 1px 1px #000000;
+	border-radius: 9px 9px 9px 9px;
+}
+
+
+    figure.foto-legenda img {
+	width: 100%;
+	height: 100%;
+}
+
+	figure.foto-legenda figcaption {
+    opacity: 0;
+	position: absolute;
+	top: 0px;
+	background-color: rgba(0,0,0,.4);
+	color: white;
+	width: 100%;
+	height: 100%;
+	box-sizing 1:
+	border-box 1;
+	transition: opacity 1s;
+}
+
+    figure.foto-legenda:hover figcaption {
+	opacity: 1;
+}
+
+
+
+/* formatacao do menu */
+
+  nav#menu {
+    display: inline-block;
+    margin-top:  -190px;
+	margin-left: 0px;250
+	margin-right: 0px;250
+	position: absolute;
+
+}
+
+nav#menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: relative;
+    top: -160px;
+    left: 502px;
+    right: 200px;
+    margin: -10px;
+}
+
+nav#menu li {
+    display: inline-block;
+    background-color: #464298;
+    font-size: 10pt;
+    color: white;
+    padding: 18px;
+    margin: -7px;
+    transition: background-color 1s;
+    box-shadow: 3px 3px 3px rgba(0,0,0,.0);
+    border-radius: 6px 6px 6px 6px;
+}
+
+nav#menu li:hover {
+    display: inline-block;
+	background-color: #000000;
+	padding: 9px;
+	margin: -2px;
+	font-size: 13pt;
+	transition: background-color 1s;
+	box-shadow: 5px 5px 8px rgba(0,0,0,.5);
+}
+
+nav#menu h1 {
+    display: none;
+}
+
+nav#menu a {
+    color: #ffffff;
+}
+
+nav#menu a:hover {
+    color: #ffffff;
+}
+
+
+section#corpo {
+	display: block;
+	width: 500px;
+	float: left;
+	border-right: 1px solid #606060;
+	padding-right: 15px;
+}
+
+
+article#noticia-principal h2 {
+	font-size: 13pt;
+	color: #606060;
+	background-color: #464298;
+	padding: 5px 0px 5px 10px;
+	margin: 10px 0px 10px 0px;
+}
+
+header#cabecalho-artigo h1 {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 20pt;
+	color: #606060;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	text-align: center;
+}
+.direita {
+	text-align: right;
+}
+
+
+header#cabecalho-artigo h2 {
+	font-size: 13pt;
+	color: #ffffff;
+	background-color: #464298;
+	margin: 0px;
+	border-radius: 6px 6px 6px 6px;
+	text-align: center;
+}
+
+header#cabecalho-artigo h3{
+	font-size: 12px;
+	color: #606060;
+}
+
+aside#lateral {
+	display: block;
+	width: 350px;
+	float: right;
+	background-color: #464298;
+	padding: 10px;
+	margin-top: 10px;
+	box-shadow: 0px 0px 0px rgba(0,0,0,.5);
+	border-radius: 7px 7px 7px 7px;
+	}
+
+aside#lateral h1 {
+	font-family: 'fontelogo',sans-serif;
+	font-size: 20pt;
+	color: #ffffff;
+	margin-top: 0px;
+	text-align: center;
+}
+
+aside#lateral h2 {
+	background-color: #8e8e8e;
+	text-align: center;
+	font-size: 15pt;
+	color: #ffffff;
+	padding: 5px;
+	border-radius: 7px 7px 7px 7px;
+}
+aside#lateral p{
+	color:white;
+}
+
+footer#rodape {
+	clear: both;
+	border-top: 1px solid #606060;
+}
+
+footer#rodape p{
+	text-align: center;
+}
+
+video#index {
+    display: block;
+    position: relative;
+    width: 350px;
+    height: 250px;
+
+}
