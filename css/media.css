@@ -1,0 +1,15 @@
+@charset "UTF-8";
+div#tv-radio {
+    width: 900px;
+    height: 550px;
+    
+   
+}
+
+video#filme {
+    display: block;
+    position: relative;
+    left: 130px;
+    top: 105px;
+    width: 640px;
+}
