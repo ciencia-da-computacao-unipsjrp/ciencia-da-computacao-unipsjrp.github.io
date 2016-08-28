@@ -41,7 +41,7 @@
 div#interface {
     width: 900px;
     background-color: #ebe6e6;
-    background-image:url(../_imagens/background2.gif);
+    background-image:url(https://raw.githubusercontent.com/ciencia-da-computacao-unipsjrp/ciencia-da-computacao-unipsjrp.github.io/master/_imagens/background2.gif);
     margin: -23px auto 0px auto;
     box-shadow: 9px 9px 9px  rgba(0, 0, 0, .5);
     padding: 20px;
